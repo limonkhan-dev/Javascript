@@ -1,7 +1,8 @@
 .main-section{
-    display: inline-block;
+    display: inline-flex;
+    flex-direction: column;
     justify-content: center;
-    
+    align-items: center;
 }
 .slider{
     display: flex;
@@ -21,4 +22,10 @@ button{
 button:hover{
     background-color: blue;
     color: antiquewhite;
+}
+img{
+    height: 150px; 
+    width: 200px; 
+    border-radius: 8px;
+    border: 1px solid whitesmoke;
 }
