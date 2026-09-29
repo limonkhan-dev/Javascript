@@ -1,0 +1,24 @@
+.main-section{
+    display: inline-block;
+    justify-content: center;
+    
+}
+.slider{
+    display: flex;
+    background-color: aqua;
+    padding: 20px 10px;
+    border-radius: 8px;
+    align-items: center;
+    gap: 10px;
+}
+button{
+    background-color: brown;
+    color: aliceblue;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 1px solid beige;
+}
+button:hover{
+    background-color: blue;
+    color: antiquewhite;
+}
