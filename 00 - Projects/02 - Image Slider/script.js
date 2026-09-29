@@ -8,6 +8,10 @@ let photos = [
 let count = 0;
 let img = document.querySelector(`img`);
 
+//Add events
+document.querySelector('div #btn-pre').addEventListener("click", pre);
+document.querySelector('div #btn-next').addEventListener('click',next);
+
 //Previous function
 function pre(){  
     count--;
