@@ -19,7 +19,6 @@ function pre(){
         count = photos.length-1;
     }
     img.src = photos[count];
-  console.log("This is pre func");
 }
 
 //Netx function
