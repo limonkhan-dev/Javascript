@@ -1,0 +1,14 @@
+.field{
+    margin-bottom: 10px;
+}
+#submit{
+    background-color: aqua;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+#submit:hover{
+    background-color: bisque;
+    color: black;
+}
