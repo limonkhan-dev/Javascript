@@ -71,3 +71,7 @@ let ter = a>b ? `True` : `False`;
 console.log(ter);
 let k = a<b || b<p ? `True` : `False`;
 console.log(k);
+
+
+//TypeOf oparator
+console.log(typeof a);
