@@ -10,3 +10,11 @@ console.log(typeof FName);
 //Number date type
 let age = 30;
 console.log(typeof age);
+
+
+//Boolean data type
+let isMoved = true;
+let isComming = false;
+console.log(typeof isMoved);
+
+
