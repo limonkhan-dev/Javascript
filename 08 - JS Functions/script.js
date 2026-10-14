@@ -58,10 +58,10 @@ console.log(subs(8,2));
 
 //Nested function
 function greeting(nickName){
-    function message(){
-        nickName = nickName || "'Please enter your name: '";
+    function message(){ 
+        nickName = nickName || "'Please enter your name: '"; //inner nested fuction
         alert(`Hello ${nickName}`)
     }
-    return message();
+    return message(); //call and return inner nested function value
 }
 console.log(greeting(prompt(`Please enter your name: `)));
