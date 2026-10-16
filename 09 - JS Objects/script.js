@@ -23,6 +23,12 @@ const details = {
     }
 };
 
+//Added new property to object
+details.email = `limonkhan.dev@gmail.com`;
+
+//Delete any proprty from object
+delete details.age;
+
 console.log(details);
 console.log(details.userName); //Dot notation
 console.log(details[`age`]); //Bracket notation
@@ -76,3 +82,18 @@ console.log(objFinal1);
 
 
 //Constractor object
+function UserInfo(fullName, age, email){
+    this.fullName = fullName;
+    this.age = age,
+    this.email = email
+}
+
+let user1 = new UserInfo(`Limon`, 30, `limonk03@gmail.com`);
+let user2 = new UserInfo(`Rony`, 30, `rony30@gmail.com`);
+console.log(user1);
+console.log(user2);
+user2.jobStatus = true;
+console.log(user1);
+
+delete user1.fullName;
+console.log(user1);
