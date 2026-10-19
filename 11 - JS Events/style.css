@@ -1,0 +1,13 @@
+#subsBtn{
+    color: white;
+    background-color: brown;
+    padding: 10px 25px;
+    font-family: serif;
+    font-size: 18px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+}
+#subsBtn:hover{
+    background-color: black;
+}
