@@ -1,38 +1,49 @@
 //For loop
-//Use for loop when it's array
-let car = [`BMW`, `Audi`, `Lamburgini`];
-
-car.push(`Noah`);
-car.push(`Hiece`)
-
-console.log(car);
-
+//Use for loop when it is an array
+let car = [`Audi`, `Lamburgini`, `Ferrei`];
+car.push(`Corolla`);
+// console.log(car);
 for(let i=0; i<car.length; i++){
     console.log(car[i]);
 }
 
-//For In loop
-//Use for in loop when it's object
-let person = {
-    firstName: `Limon`,
-    lastName: `Khan`,
-    age: 30,
-    region: `Bangladesh`
+//For in loop
+//Use for in loop when it is an object
+const details = {
+    fName : `Limon`,
+    lName : `Khan`,
+    age : 30,
+    nationality : `Bangladeshi`
 }
-console.log(person);
-for(let i in person){
-    let capLatter = i.charAt(0).toUpperCase()+i.slice(1)
-    console.log(capLatter + `: ` + person[i]);
+// console.log(details[`fName`]);
+for(let i in details){
+    let capLatter = i.charAt(0).toUpperCase() + i.slice(1);
+    console.log(capLatter + `: ` +details[i]);
 }
 
 //Foreach loop
-//Can be use foreach when it is array
-car.forEach(function(i){
-    console.log(i);
+//Use foreach loop when it is an array
+let friends = [`Rony`, `Akash`, `Shohag`];
+friends.forEach(function(element){
+    console.log(element);
 })
 
-//Example 2:
-let friends = [`Rony`, `Ashik`, `Shohag`, `Shakil`];
-friends.forEach(function(a){
-    console.log(a);
+//Example 2
+car.forEach(function(element){
+    console.log(element);
 })
+
+//For of loop
+//Use for of loop when it is an array
+let skill = [`Javascript`, `PHP`, `Laravel`];
+for(let i of skill){
+    console.log(i);
+}
+
+//While loop
+//Different type loop
+let age = 25;
+while(age < 31){
+    console.log(`Pass`);
+    age++;
+}
